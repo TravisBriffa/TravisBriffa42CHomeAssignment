@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8706475662406356025}
   - component: {fileID: 5834939580648044149}
+  - component: {fileID: -1815410985529632451}
   m_Layer: 0
   m_Name: big car obstacle
   m_TagString: Untagged
@@ -82,3 +83,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-1815410985529632451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4854749797010983369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f0eaf733f3d194e9cb6eaf081511f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Waypoints:
+  - {fileID: 3643254824319790589, guid: 57e23c5ec17d2b248b82eda6fe83c12c, type: 3}
+  - {fileID: 2003919731385400489, guid: a0f22af07341d2742a7db80f3defb64c, type: 3}
+  - {fileID: 1741484416220757536, guid: d746f72bdee96d147bafbde50dafd928, type: 3}

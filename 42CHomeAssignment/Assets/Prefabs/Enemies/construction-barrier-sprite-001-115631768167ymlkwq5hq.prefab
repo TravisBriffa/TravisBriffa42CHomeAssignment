@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3634866615647980464}
   - component: {fileID: 3634866615647980465}
+  - component: {fileID: -8861632600777129366}
   m_Layer: 0
   m_Name: construction-barrier-sprite-001-115631768167ymlkwq5hq
   m_TagString: Untagged
@@ -70,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: be81641329970b74e87122b967ed4c17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -82,3 +83,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-8861632600777129366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3634866615647980466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f0eaf733f3d194e9cb6eaf081511f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carMoveSpeed: 2
